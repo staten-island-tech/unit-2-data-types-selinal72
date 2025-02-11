@@ -37,13 +37,6 @@ total = add(bill,tip)
 print(f"Total: {total}") """
 
 
-""" x = "this is a thing"
-y= x.split( )
-z = y[0]
-print(y)
-print(z) """
-
-
 """ sentence = input("Enter Sentence: ") # asks user for input
 
 def count_words(sentence): # takes the sentence as input
@@ -54,17 +47,7 @@ print("Number of words: ", count_words(sentence)) # calls on the code """
 
 
 # mad libs project
-""" verb1 = "crying"
-verb2 = "throwing up"
-verb3 = "drank"
-noun = "sunfish"
-number = "fifth"
-celebrity1 = "Kendrick Lamar"
-celeb2 = "Drake"
-celeb3 = "Beyonce"
-adjective = "new" """
-
-verb1 = input("Enter a verb: ")
+""" verb1 = input("Enter a verb: ")
 verb2 = input("Enter another verb: ")
 verb3 = input("Enter another verb: ")
 noun = input("Enter a noun: ")
@@ -76,4 +59,40 @@ adjective = input("Enter an adjective: ")
 
 Madlib = f"It was a {adjective} day in Staten Island Technical Highschool. As {celebrity1} walked into {number} period, he suddenly started {verb1} because he saw {celeb2}. {celeb2} was so shocked that he started {verb2}. Then, the teacher, {celeb3}, walked in and {verb3} at everyone to sit down. A new day at Staten Island Tech has started."
 
-print(Madlib)
+print(Madlib) """
+
+
+# challenge 1
+# number = blank
+# if number = even
+# print('even')
+# else:
+# print('odd')
+""" number = int(input("Enter Number: "))
+if number % 2 == 0:
+    print("Even")
+else:
+    print("odd") """
+
+# challenge 2
+""" bill = float(input("Bill Amount: "))
+service = int(input("Please Rate Service Out of 5: "))
+bad = 0
+okay = 15
+good = 20
+great = 25
+okay_tip = (okay / 100) * bill
+good_tip = (good / 100) * bill
+great_tip = (great / 100) * bill
+if service >= 5:
+    print(great_tip + bill)
+elif service == 4:
+    print(good_tip)
+elif service == 3: 
+    print(okay_tip)
+else:
+    print(bill) """
+
+# challenge 3
+# number = input("Enter Number: ")
+# 
