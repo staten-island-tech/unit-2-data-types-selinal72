@@ -94,5 +94,27 @@ else:
     print(bill) """
 
 # challenge 3
-# number = input("Enter Number: ")
-# 
+""" factors = []
+number = int(input("Enter Number: "))
+for i in range(1, number + 1):
+    if number % i == 0:
+        factors.append(i)
+print(factors) """
+
+# challenge 4
+""" factors1 = []
+factors2 = []
+number1 = int(input("Enter Number: "))
+number2 = int(input("Enter Another Number: "))
+for i in range(1, number1 + 1):
+    if number1 % i == 0:
+        factors1.append(i)
+for j in range(1, number2 + 1):
+    if number2 % j == 0:
+        factors2.append(j)
+commons = []
+for factor in factors1:
+    if factor in factors2:
+        commons.append(factor)
+all_commons = len(commons)
+print(f"Greatest Common Factor: {commons[all_commons - 1]}")  """
