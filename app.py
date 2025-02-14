@@ -107,7 +107,7 @@ factors2 = []
 number1 = int(input("Enter Number: "))
 number2 = int(input("Enter Another Number: "))
 for i in range(1, number1 + 1):
-    if number1 % i == 0:
+    if number1 % i == 0: # you can write "and if number2 %..." to combine the for loops
         factors1.append(i)
 for j in range(1, number2 + 1):
     if number2 % j == 0:
