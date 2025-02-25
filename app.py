@@ -118,3 +118,14 @@ for factor in factors1:
         commons.append(factor)
 all_commons = len(commons)
 print(f"Greatest Common Factor: {commons[all_commons - 1]}")  """
+
+def skins3(money, cost, availability):
+    if availability == True:
+        if money >= cost:
+            print("yay purchased")
+        else:
+            print("u too broke")
+    else:
+        print("not available")
+skins3(5,10,True)
+
